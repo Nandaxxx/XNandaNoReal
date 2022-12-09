@@ -2152,7 +2152,6 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: m })
 }
 break
 //=================================================//
-/*
 case 'anime': {
 if (isBan) throw sticBanLu(from) 
 if (!text) return m.reply(`you are looking for what anime apa?\n\nEXAMPLE ${prefix}anime naruto`)
@@ -2175,12 +2174,12 @@ const sendm =haikal.sendMessage(
  {
 text: `*Search Results From* ${text}`,
 footer: botname,
-title: "*▊▊▊ANIME▊▊▊*",
+title: "ANIME",
 buttonText: "CLICK HERE",
 sections
  }, { quoted : m })
 }
-break*/
+break
 //=================================================//
 case 'translate': case 'terjemahan': case 'tr': {
 if (isBan) throw sticBanLu(from)
